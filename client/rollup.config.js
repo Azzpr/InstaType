@@ -45,7 +45,7 @@ export default {
 			}
 		}),
 		json(
-		
+		inclu
 
 		),
 		// we'll extract any component CSS out into
