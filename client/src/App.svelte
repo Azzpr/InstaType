@@ -24,4 +24,9 @@
 :global(body) {
 		background-color: #2E3440;
 	}
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 </style>

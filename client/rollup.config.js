@@ -4,7 +4,8 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
-
+// rollup.config.js
+import json from "@rollup/plugin-json";
 const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
@@ -38,11 +39,15 @@ export default {
 	},
 	plugins: [
 		svelte({
-			compilerOptions: {
+			compilerOptions: {	
 				// enable run-time checks when not in production
 				dev: !production
 			}
 		}),
+		json(
+		
+
+		),
 		// we'll extract any component CSS out into
 		// a separate file - better for performance
 		css({ output: 'bundle.css' }),

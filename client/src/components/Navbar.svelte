@@ -37,6 +37,9 @@
   .logoArea h1 {
     font-family: "Nunito", sans-serif;
   }
+  .logoArea h1:hover{
+    cursor: pointer;
+  }
   div .nav-links {
     width: 30%;
   }
@@ -56,6 +59,7 @@
   a:hover{
       cursor: pointer;
       text-decoration: none;
+    color: rgb(243, 246, 252);
     font-family: "Nunito", sans-serif;
 
   }
