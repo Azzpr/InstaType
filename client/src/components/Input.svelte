@@ -2,7 +2,6 @@
 import json from "rollup-plugin-json";
 
   // Importing the wordlist 
-  import * as wordList from "../resources/words.json"
   // Setting the user variable
   let userInput = "";
   //  Setting user gamemode as default "words" and how many words have been choosen (the default is 10)
